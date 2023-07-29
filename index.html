@@ -1,15 +1,250 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>JK Room</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>パーティー・貸し会議室・スタジオ・サロン運営のJK Room</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="パーティー・貸し会議室・スタジオ・サロン運営のJK Room"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body class="home">
+    <header>
+      <h1 id="logo">
+        <a href="index.html"><img src="images/logo_home.png" alt="jkroom" /></a>
+      </h1>
+      <!--スライドショー-->
+      <div id="mainimg">
+        <img src="images/mainimg_bg.png" alt="" id="kazari" />
+      </div>
+    </header>
 
-<header>
-<h1>JK Room</h1>
-</header>
-</body>
+    <div id="container">
+      <nav id="header-menu">
+        <ul>
+          <li>
+            <a href="location.html"
+              >場所から探す<i class="fas fa-map-marker-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="usage.html">用途から探す<i class="fas fa-tags"></i></a>
+          </li>
+          <li>
+            <a href="equipment.html"
+              >設備から探す<i class="fas fa-shopping-basket"></i
+            ></a>
+          </li>
+          <li>
+            <a href="event.html"
+              >イベントを探す<i class="far fa-calendar-alt"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <!-- <section>
+          <h2 class="flag">新宿のスペース特集<span>Event</span></h2>
+
+          <div class="list-container">
+            <div class="list blur">
+              <figure><img src="images/sample1.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+              <p class="btn">
+                <a href="https://spacemarket.com/p/6YiU_N1-d9UwjFbP"
+                  >詳しくみる</a
+                >
+              </p>
+              <span class="icon">12/15<br />〜<br />12/18</span>
+            </div>
+
+            <div class="list blur">
+              <figure><img src="images/sample2.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+              <p class="btn">
+                <a href="https://spacemarket.com/p/0hLmHZD0swLH9Ydl"
+                  >詳しくみる</a
+                >
+              </p>
+              <span class="icon">12/3</span>
+            </div>
+
+            <div class="list blur">
+              <figure><img src="images/sample3.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+              <p class="btn">
+                <a href="https://spacemarket.com/p/Wj400y6nRJoybf3P"
+                  >詳しくみる</a
+                >
+              </p>
+              <span class="icon">3日〜<br />5日</span>
+            </div>
+
+            <div class="list blur">
+              <figure><img src="images/sample4.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+              <p class="btn">
+                <a href="https://spacemarket.com/p/odvn04X_W48y-HDO"
+                  >詳しくみる</a
+                >
+              </p>
+            </div>
+          </div>
+        </section> -->
+
+        <!-- <section>
+          <h2>お知らせ<span>What's New</span></h2>
+
+          <dl id="new">
+            <dt>2022/10/18<span>その他</span></dt>
+            <dd>tp_bussan2配布開始。</dd>
+            <dt>20XX/00/00<span class="icon-bg1">設備から探す</span></dt>
+            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+            <dt>20XX/00/00<span class="icon-bg2">用途から探す</span></dt>
+            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+            <dt>20XX/00/00</dt>
+            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+            <dt>20XX/00/00<span>その他</span></dt>
+            <dd>
+              サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。
+            </dd>
+          </dl>
+        </section> -->
+
+        <!-- <section class="bg1">
+          <h2 class="cracker">今月のおすすめ商品<span>Shopping</span></h2>
+
+          <div class="list-container">
+            <div class="list-square blur">
+              <figure><img src="images/sample6.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+              <span class="icon">おすすめ</span>
+            </div>
+
+            <div class="list-square blur">
+              <figure><img src="images/sample7.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+            </div>
+
+            <div class="list-square blur">
+              <figure><img src="images/sample8.jpg" alt="" /></figure>
+              <div class="text">
+                <h4>Sample Title</h4>
+                <p>ここに説明を入れます。サンプルテキスト。</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="btn">
+            <a href="usage.html"
+              >もっとみる<i class="fas fa-angle-double-right"></i
+            ></a>
+          </p>
+        </section> -->
+      </main>
+
+      <div id="footermenu">
+        <ul>
+          <li class="title">メニュー</li>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="location.html">場所から探す</a></li>
+          <li><a href="usage.html">用途から探す</a></li>
+          <li><a href="equipment.html">設備から探す</a></li>
+          <li><a href="event.html">イベントを探す</a></li>
+          <li><a href="https://jk-corp.work/">運営会社</a></li>
+        </ul>
+      </div>
+      <!--/#footermenu-->
+
+      <footer>
+        <small
+          >Copyright&copy; <a href="index.html">JK Room</a> All Rights
+          Reserved.</small
+        >
+        <span class="pr"
+          ><a href="https://template-party.com/" target="_blank"
+            >《Web Design:Template-Party》</a
+          ></span
+        >
+      </footer>
+
+      <!--開閉ブロック-->
+      <div id="menubar">
+        <nav>
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="location.html">場所から探す</a></li>
+            <li><a href="usage.html">用途から探す</a></li>
+            <li><a href="equipment.html">設備から探す</a></li>
+            <li><a href="event.html">イベントを探す</a></li>
+          </ul>
+        </nav>
+
+        <p class="btn"><a href="contact.html">お問い合わせ</a></p>
+
+        <!-- <div class="sh">
+          <p>
+            ※900px未満のメニュー開閉時にのみ表示させたい情報があればここ（shボックスの中）に入れて下さい。<br />
+            サンプルテキスト。サンプルテキスト。<br />
+            サンプルテキスト。サンプルテキスト。<br />
+            サンプルテキスト。サンプルテキスト。
+          </p>
+        </div> -->
+        <!--/.sh-->
+      </div>
+      <!--/#menubar-->
+
+      <!--開閉ボタン（ハンバーガーアイコン）-->
+      <div id="menubar_hdr">
+        <div><span></span><span></span><span></span></div>
+        <p>MENU</p>
+      </div>
+    </div>
+    <!--/#container-->
+
+    <!--jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--スライドショー（vegas）-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
+    <script src="js/vegas.js"></script>
+
+    <!--パララックス（inview）-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script src="js/jquery.inview_set.js"></script>
+
+    <!--このテンプレート専用のスクリプト-->
+    <script src="js/main.js"></script>
+
+    <!--ページの上部へ戻るボタン-->
+    <div class="pagetop">
+      <a href="#"><i class="fas fa-angle-double-up"></i></a>
+    </div>
+  </body>
 </html>
