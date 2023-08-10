@@ -1177,5 +1177,15 @@ p.btn {
     display: none;
   }
 
+  .social-links {
+    display: flex; /*flexボックスを使う指定*/
+    flex-direction: row; /*子要素を横並びにする*/
+    justify-content: space-between; /*並びかたの種類の指定*/
+    align-items: center;
+  }
+  .social-link {
+    margin: 10px;
+  }
+
   /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 }
