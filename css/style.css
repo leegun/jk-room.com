@@ -409,7 +409,7 @@ main h2 span {
 /*mainブロック内のh3タグ*/
 main h3 {
   padding: 5px 20px; /*上下、左右への余白*/
-  margin: 0 0 10px; /*上、左右、下に空けるスペース*/
+  margin: 0 0 0px; /*上、左右、下に空けるスペース*/
   background: #f7f7f7; /*背景色*/
   border-radius: 5px; /*角を丸くする指定*/
   border: 1px solid #ddd; /*枠線の幅、線種、色*/
