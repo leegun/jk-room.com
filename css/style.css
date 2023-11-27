@@ -94,7 +94,7 @@ section,
 main > article,
 .c2,
 #footermenu {
-  padding: 3% 50px; /*上下、左右へのボックス内の余白*/
+  padding: 3% 20px 0px; /*上下、左右へのボックス内の余白*/
 }
 
 /*containerブロック
